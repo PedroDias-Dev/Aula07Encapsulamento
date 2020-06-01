@@ -10,7 +10,7 @@ namespace Aula7Encapsulamento
 
         private string token = "asfasfshgef7gfifh89e8hfio";
 
-        protected string cvv { get ; set ;}
+        protected int cvv { get ; set ;}
 
         public void AprovarCompra(){
             Console.WriteLine("Sua compra foi aprovada!");
